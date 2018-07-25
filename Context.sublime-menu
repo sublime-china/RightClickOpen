@@ -1,11 +1,6 @@
 [
-	{
-		"caption": "Search online",
-		"children": [
-			{"command": "search_online", "args": {"where": "baidu"} },
-			{"command": "search_online", "args": {"where": "google"} }
-		]
-  	},
+	{"command": "search_online", "args": {"where": "baidu"} },
+	{"command": "search_online", "args": {"where": "google"} },
 	{"command": "right_click_open", "args": {"where": "browser"} },
 	{"command": "right_click_open", "args": {"where": "sublime"} },
 	{"command": "right_click_open", "args": {"where": "quick panel"} }
