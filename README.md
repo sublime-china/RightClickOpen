@@ -19,8 +19,6 @@ D:\SublimeText3\Data\Packages\right click open
 
 right_click_here.py
 
-print.ss
-
 ..
 
 ..\right click open

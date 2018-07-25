@@ -77,7 +77,8 @@ class SearchOnlineCommand(sublime_plugin.TextCommand):
         if len(content) > 64:
             content = content[0:64] + "..."
 
-        caption = " ".join(["Search:", "*"+content+"*", "on", where])
+        # caption = " ".join(["Search:", "*"+content+"*", "on", where])
+        caption = "Search on " + where
         return caption
 
     def want_event(self):
@@ -144,7 +145,7 @@ class RightClickOpenCommand(sublime_plugin.TextCommand):
             return path
 
         os.chdir(workdir)
-        names = '/'.join(text.split("\\"))
+        names = "/".join(text.split("\\"))
         names = [x for x in names.split("/") if x]
         for i in range(len(names), 0, -1):
             path = os.path.abspath(os.path.sep.join(names[:i]))

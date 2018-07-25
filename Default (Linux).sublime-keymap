@@ -1,0 +1,8 @@
+[
+  { "keys": ["ctrl+shift+o"], "command": "list_files_in_panel" },
+  { "keys": ["ctrl+alt+h"], "command": "list_home_dir" },
+
+  { "keys": ["ctrl+alt+b"], "command": "brackets_trans" },
+  { "keys": ["ctrl+alt+."], "command": "brackets_take_off" },
+  { "keys": ["ctrl+alt+,"], "command": "brackets_selector"}
+]
