@@ -10,6 +10,13 @@ This is a right-click package for **sublime text 3**, it contains four features:
 
 It is can recognize the following lines with its type and intelligently decide show it on `context menu` or not.
 
+# key bindings
+* `ctrl+shift+o`, List files and folder of currenty directory.
+* `ctrl+alt+h`, Open home path.
+* `ctrl+alt+b`, Will translate `[` to `(` and the correspondent `]` to `)` or `(` to `[` and `)` to `]`
+* `ctrl+alt+,`, Will expand_selection to `bracket` and contains the brackets, opposites to `ctrl+shift+m`
+* `ctrl+alt+.`, Will take off a pair of brackets, such as: `(a b c)` => `a b c`
+
 Some test:
 
 ```
